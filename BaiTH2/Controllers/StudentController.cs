@@ -13,12 +13,12 @@ namespace BaiTH2.Controllers
         {
             return View();
         }
-        public ActionResult GetInfo()
+        public ActionResult GetInfoSV()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult GetInfoSV( string Ten, string Lop, int Tuoi)
+        public ActionResult GetInfoSV( string Ten, string Lop, string Tuoi)
         {
             ViewBag.Ten = Ten;
             ViewBag.Tuoi = Tuoi;

@@ -3,14 +3,13 @@
     ViewBag.Title = "GetInfoSV";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <h2>GetInfoSV</h2>
 @using (Html.BeginForm())
 {
-    <input type="text" name="Ten"/>
-    <input type="number" name="Tuoi"/>
-    <input type="text" name="Lop"/>
-    <input type="submit" value="Thông tin sinh viên:"/>
+    <input type="text" name="Ten" />
+    <input type="text" name="Tuoi" />
+    <input type="text" name="Lop" />
+    <input type="submit" value="Thông tin sinh viên:" />
 }
 <h3>Thông tin sinh viên:</h3>
 <h4>Họ và tên: @ViewBag.Ten</h4>
