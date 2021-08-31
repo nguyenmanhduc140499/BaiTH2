@@ -170,7 +170,7 @@
     <Content Include="Views\SinhVien\Index.cshtml" />
     <Content Include="Views\SinhVien\LayThongTin.cshtml" />
     <Content Include="Views\GiaiPhuongTrinh\Index.cshtml" />
-    <Content Include="Views\GiaiPhuongTrinh\GiaiPhuongTrinh.cshtml" />
+    <Content Include="Views\GiaiPhuongTrinh\GiaiPhuongTrinhBac1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
