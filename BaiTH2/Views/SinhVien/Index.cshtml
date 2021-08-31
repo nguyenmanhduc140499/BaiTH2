@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Thông tin sinh viên</h2>
+
+@using (Html.BeginForm("LayThongTin","SinhVien"))
+{
+    <label>Họ tên sinh viên</label>
+    <input type="text" name="HoTen" />
+    <br />
+    <label>Lớp:</label>
+    <input type="text" name="Lop" />
+    <button type="submit">Gửi dữ liệu</button>
+}
+Họ tên sinh viên: @ViewBag.hoten
+Lớp học: @ViewBag.lop

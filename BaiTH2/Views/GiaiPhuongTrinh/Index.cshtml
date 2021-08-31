@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Giai phuowng trinh bac 1</h2>
+@using (Html.BeginForm(GiaiPhuongTrinhBac1, GiaiPhuongTrinh))
+<p>So thu nhat</p><input type="number" name="Sothunhat"/><br/>
+<p>So thu hai</p><input type="number" name="c"/><br/>
+<button>Giai phuong trinh</button>
+
+
